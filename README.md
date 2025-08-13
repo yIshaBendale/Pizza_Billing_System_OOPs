@@ -35,38 +35,31 @@ Size Pricing:
 
 OOP Concepts Demonstrated:
 
-1. Inheritance
+1. Inheritance:
+
    -Pizza (Abstract base class)
-   
    -VegPizza extends Pizza
-   
    -NonVegPizza extends Pizza
-   
    -Topping (Abstract base class)
-   
    -VegTopping extends Topping
-   
    -NonVegTopping extends Topping
 
-3. Polymorphism:
+2. Polymorphism:
+   
    -Method overriding in pizza subclasses
-   
    -Interface implementations for different strategies
-   
    -Runtime polymorphism through abstract methods
 
-5. Abstraction:
+3. Abstraction:
+   
    -Abstract classes: Pizza, Topping
-   
    -Interfaces: PricingStrategy, MenuManager, BillGenerator
-   
    -Abstract methods enforcing implementation in subclasses
 
-7. Encapsulation:
+4. Encapsulation:
+   
    -Private fields with public getter/setter methods
-   
    -Data hiding and controlled access to object state
-   
    -Proper access modifiers usage
 
 
