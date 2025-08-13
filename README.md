@@ -37,42 +37,48 @@ OOP Concepts Demonstrated:
 
 1. Inheritance
    -Pizza (Abstract base class)
+   
    -VegPizza extends Pizza
+   
    -NonVegPizza extends Pizza
+   
    -Topping (Abstract base class)
+   
    -VegTopping extends Topping
+   
    -NonVegTopping extends Topping
 
-2. Polymorphism:
+3. Polymorphism:
    -Method overriding in pizza subclasses
+   
    -Interface implementations for different strategies
+   
    -Runtime polymorphism through abstract methods
 
-3. Abstraction:
+5. Abstraction:
    -Abstract classes: Pizza, Topping
+   
    -Interfaces: PricingStrategy, MenuManager, BillGenerator
+   
    -Abstract methods enforcing implementation in subclasses
 
-4. Encapsulation:
+7. Encapsulation:
    -Private fields with public getter/setter methods
+   
    -Data hiding and controlled access to object state
+   
    -Proper access modifiers usage
 
 
 #How to Run:-
-Prerequisites:
 
-Java Development Kit (JDK) 8 or higher
-Command line interface
+Prerequisites:
+1. Java Development Kit (JDK) 8 or higher
+2. Command line interface
 
 Steps:
-
 1. Download/Clone the repository
 2. Save the code as "PizzaBillGenerator.java"
-3. Compile the program:
-    bash:
-    javac PizzaBillGenerator.java
-4: Run the program:
-    bash
-    java PizzaBillGenerator
+3. Compile the program:  javac PizzaBillGenerator.java
+4: Run the program:  java PizzaBillGenerator
 
